@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+  <head>
+    <meta charset="utf-8">
+    <title>JWT Example</title>
+
+  </head>
+  <body>
+    <ng-view></ng-view>
+    <script src='./bower_components/angular/angular.js'></script>
+    <script src='./bower_components/angular-route/angular-route.js'></script>
+    <script src='./bower_components/angular-cookies/angular-cookies.js'></script>
+    <script src='./app/app.module.js'></script>
+    <script src='./app/app.config.js'></script>
+    <script src='./app/app.routes.js'></script>
+    <script src='./app/common/services/AuthTokenFactory.js'></script>
+    <script src='./app/common/services/UserFactory.js'></script>
+    <script src='./app/home/homeController.js'></script>
+    <script src='./app/home/UsersController.js'></script>
+  </body>
+</html>

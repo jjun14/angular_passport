@@ -1,0 +1,13 @@
+<div ng-controller='HomeController'>
+<a href="/auth/facebook">Login with Facebook</a>
+<h1>Login</h1>
+Email: <input ng-model="log_user.email">
+Password: <input ng-model="log_user.password">
+<button ng-click="login(log_user)">Register</button>
+<h1>Register</h1>
+First Name: <input ng-model="reg_user.firstName">
+Last Name: <input ng-model="reg_user.lastName">
+Email: <input ng-model="reg_user.email">
+Password: <input ng-model="reg_user.password">
+<button ng-click="register(reg_user)">Register</button>
+</div>

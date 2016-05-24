@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "authors": [
+    "jjun14 <jimmy.s.jun@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-cookies": "^1.5.5"
+  }
+}

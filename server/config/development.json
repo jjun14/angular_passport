@@ -1,0 +1,13 @@
+{
+  "host": "127.0.0.1",
+  "devURL": "http://127.0.0.1:8000",
+  "env": "development",
+  "dbURL": "mongodb://localhost/angular_passport",
+  "sessionSecret": "qwertyuiop123456789",
+  "jwtSecret": "aasjidfjiodsjfiosajfs",
+  "fb": {
+    "appID": "703485283087436",
+    "appSecret": "d0553d96319372c6c0ab2b422e92749e",
+    "callbackURL": "http://localhost:8000/auth/facebook/callback/"
+  }
+}
